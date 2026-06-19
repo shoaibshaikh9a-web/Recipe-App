@@ -1,16 +1,58 @@
-# React + Vite
+# Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Recipe application built with React that allows users to search and view recipes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search recipes by keyword
+- View recipe details
+- Display recipe images
+- Responsive user interface
+- Fetch data from an external API
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Fetch API / REST API
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built while following the FreeCodeCamp "25 React Projects" tutorial series to practice:
+
+- React Components
+- React Hooks
+- API Integration
+- State Management
+- Conditional Rendering
+- Event Handling
+
+## Installation
+
+Clone the repository:
+git clone <repository-url>
+npm install
+npm run dev
+
+## Live Demo
+https://adorable-malabi-b38839.netlify.app/
+
+## Author
+Shoaib Shaikh
+
+## API used
+https://forkify-api.jonas.io/api/v2/recipes?search=''
+
+## Screenshots
+<img width="1583" height="877" alt="Screenshot 2026-06-19 205400" src="https://github.com/user-attachments/assets/b3887ce0-f295-4f33-ae14-d753ce9b571a" />
+<img width="1653" height="828" alt="Screenshot 2026-06-19 205458" src="https://github.com/user-attachments/assets/4e2033b8-297a-418e-8a08-56e93f29b0a9" />
+<img width="1617" height="868" alt="Screenshot 2026-06-19 205519" src="https://github.com/user-attachments/assets/cf80a9f8-d440-4e2e-8452-05e30ae2dad1" />
+
+
+
+
+
+
