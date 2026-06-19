@@ -2,6 +2,9 @@
 
 A simple Recipe application built with React that allows users to search and view recipes.
 
+## Live Demo
+https://adorable-malabi-b38839.netlify.app/
+
 ## Features
 
 - Search recipes by keyword
@@ -33,12 +36,11 @@ This project was built while following the FreeCodeCamp "25 React Projects" tuto
 ## Installation
 
 Clone the repository:
+```bash
 git clone <repository-url>
 npm install
 npm run dev
-
-## Live Demo
-https://adorable-malabi-b38839.netlify.app/
+```
 
 ## Author
 Shoaib Shaikh
