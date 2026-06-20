@@ -1,5 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+
 export const GlobalContext=createContext(null);
 
 export default function GlobalState({children}){
