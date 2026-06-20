@@ -49,17 +49,18 @@ export default function GlobalState({children}){
     
     return (
     <GlobalContext.Provider 
-    value={{searchParam,
-    setSearchParam,
-    handleSubmit,
-    loading,
-    recipeList,
-    recipeDetailsData,
-    setRecipeDetailsData,
-    handleAddToFavorite,
-    favoritesList,
-    setFavoritesList
-    }}>
+        value={{searchParam,
+        setSearchParam,
+        handleSubmit,
+        loading,
+        recipeList,
+        recipeDetailsData,
+        setRecipeDetailsData,
+        handleAddToFavorite,
+        favoritesList,
+        setFavoritesList
+        }}
+    >
         {children}
     </GlobalContext.Provider>
     )
